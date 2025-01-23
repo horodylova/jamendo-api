@@ -9,30 +9,22 @@ Easy setup using environment variables.
 Clone the repository:
 
 bash
-Копировать
-Редактировать
 git clone <repository-url>
 cd <repository-folder>
 Install dependencies:
 
 bash
-Копировать
-Редактировать
 npm install
 Set up your environment variables:
 
 Register on Jamendo Developers to get your client_id.
 Create a .env file in the root directory of the project:
-plaintext
-Копировать
-Редактировать
+
 CLIENT_ID=your_client_id
 PORT=3000
 Run the server:
 
 bash
-Копировать
-Редактировать
 npm start
 The server will be available at http://localhost:3000.
 
@@ -44,21 +36,19 @@ Description: Fetches up to 20 tracks based on the genre provided in the request 
 
 Request Format:
 
-Method: POST
+Method: GET
 Headers:
 Content-Type: application/json
 Body:
 json
-Копировать
-Редактировать
+
 {
   "genre": "jazz"
 }
 Response Example:
 
 json
-Копировать
-Редактировать
+
 {
   "success": true,
   "tracks": [
@@ -76,17 +66,20 @@ Postman Collection
 You can use Postman to test the API:
 
 URL: http://localhost:3000/api/tracks
-Method: POST
+Method: GET
 Body:
 json
-Копировать
-Редактировать
+ 
 {
   "genre": "jazz"
 }
+
+
 📝 Notes
 Make sure to register at Jamendo Developers to get your unique client_id. Without it, the API requests will not work.
 Update the CLIENT_ID in your .env file with the one you receive upon registration.
+
+
 🤝 Contribution
 Feel free to fork the repository, create issues, or submit pull requests. Contributions are always welcome!
 
