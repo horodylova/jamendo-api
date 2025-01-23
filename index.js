@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(express.json());
 
 app.get("/tracks", async (req, res) => {
-  const { genre } = req.body;  
+  const { genre } = req.query;  
 
   if (!genre) {
     return res.status(400).json({ success: false, message: "Genre is required" });
