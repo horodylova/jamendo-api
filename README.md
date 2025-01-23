@@ -7,23 +7,23 @@ Hi there, I'm [Svitlana Horodylova](https://www.linkedin.com/in/svitlana-horodyl
 
 This server allows you to fetch tracks from the Jamendo API by genre. It is part of a challenge to create an agent that interacts with external APIs.
 
-**🚀 Features**
-Fetch up to 20 tracks by genre.
-Returns track titles and artists in JSON format.
-Easy setup using environment variables.
+---
 
-**🛠️ Installation and Setup**
+## 🚀 Features
 
-1. Clone the repository
+- Fetch up to 20 tracks by genre.
+- Returns track titles and artists in JSON format.
+- Easy setup using environment variables.
 
-bash
+---
+
+## 🛠️ Installation and Setup
+
+### Clone the repository
+
+```bash
 git clone https://github.com/horodylova/jamendo-api
-cd  jamendo-api
-
-2. Install dependencies
-
-bash
-npm install
+cd jamendo-api
 
 3. Set up your environment variables
 Register on Jamendo Developers to get your client_id.
@@ -38,7 +38,9 @@ bash
 npm start
 The server will be available at http://localhost:3000.
 
-🧑‍💻 Usage
+-----
+
+## 🧑‍💻 Usage
 API Endpoint
 GET /api/tracks
 
@@ -74,7 +76,9 @@ json
   ]
 }
 
-**Postman Collection**
+------
+
+##  **Postman Collection**
 
 You can use Postman to test the API:
 
@@ -89,12 +93,16 @@ json
   "genre": "jazz"
 }
 
+----
+
 
 **📝 Notes**
 
 
 Make sure to register at Jamendo Developers to get your unique client_id. Without it, the API requests will not work.
 Update the CLIENT_ID in your .env file with the one you receive upon registration.
+
+----
 
 **🤝 Contribution**
 Feel free to fork the repository, create issues, or submit pull requests. Contributions are always welcome!
