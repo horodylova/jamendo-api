@@ -88,7 +88,11 @@ json
 {
   "genre": "jazz"
 }
+
+
 **📝 Notes**
+
+
 Make sure to register at Jamendo Developers to get your unique client_id. Without it, the API requests will not work.
 Update the CLIENT_ID in your .env file with the one you receive upon registration.
 
