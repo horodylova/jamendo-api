@@ -1,4 +1,9 @@
-#🎵 Jamendo Tracks API Server#
+
+<h1 align="center">Hi there, I'm <[a href="https://daniilshat.ru/](https://www.linkedin.com/in/svitlana-horodylova/)" target="_blank">Svitlana</a> 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=This+is+Jamendo+Tracks+API+Server+🎵)](https://git.io/typing-svg)
+ 
+
 This server allows you to fetch tracks from the Jamendo API by genre. It is part of a challenge to create an agent that interacts with external APIs.
 
 **🚀 Features**
