@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi there, I'm [Svitlana Horodylova](https://www.linkedin.com/in/svitlana-horodylova/)!</h1> 
+<h1 align="center">Hi there, I'm [Svitlana Horodylova](https://www.linkedin.com/in/svitlana-horodylova/)]</h1> 
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=This+is+Jamendo+Tracks+API+Server+🎵)](https://git.io/typing-svg)
