@@ -105,4 +105,6 @@ Update the CLIENT_ID in your .env file with the one you receive upon registratio
 ----
 
 **🤝 Contribution**
-Feel free to fork the repository, create issues, or submit pull requests. Contributions are always welcome!
+Feel free to fork the repository, create issues, or submit pull requests.
+
+Contributions are always welcome!
